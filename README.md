@@ -1,4 +1,4 @@
-# Oracle Database Lab
+# Oracle Database Lab (training edition)
 TRaining repository for Oracle Database Administration,
 testing, change managemente and Git workflows
 Name: Vicente Losana Moreno
