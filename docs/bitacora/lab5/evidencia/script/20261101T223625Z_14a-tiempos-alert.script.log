@@ -1,0 +1,9 @@
+
+HORA	       MENSAJE
+-------------- --------------------------------------------------------------------------------
+22:22:48.115   Thread 1 opened at log sequence 14
+22:27:02.656   Thread 1 opened at log sequence 17
+22:33:41.803   Shutting down Oracle instance (abort) (OS id: 29707).
+22:33:43.261   [kcv.c:24899] kcvcrv: Beginning crash recovery of 1 threads
+22:33:43.313   Completed crash recovery at
+22:33:43.392   Thread 1 opened at log sequence 22

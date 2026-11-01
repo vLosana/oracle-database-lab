@@ -1,0 +1,15 @@
+
+HORA	       MENSAJE
+-------------- --------------------------------------------------------------------------------
+22:37:56.096   Shutting down ORACLE instance (immediate) (OS id: 30431)
+22:37:56.168   Shutting down instance: further logons disabled
+22:37:59.089   Starting ORACLE instance (normal) (OS id: 30445)
+22:37:59.955   ORA-00210: cannot open the specified control file
+	       ORA-00202: control file: '/opt
+
+22:37:59.973   Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_mz00_30595.trc:
+	       ORA-0
+
+22:38:00.354   ALTER DATABASE MOUNT
+22:38:00.449   Completed: ALTER DATABASE MOUNT
+22:38:01.849   Completed: ALTER DATABASE OPEN
