@@ -1,0 +1,78 @@
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+ORACLE instance started.
+
+Total System Global Area 1603398928 bytes
+Fixed Size		    5033232 bytes
+Variable Size		  536870912 bytes
+Database Buffers	 1056964608 bytes
+Redo Buffers		    4530176 bytes
+Database mounted.
+
+Database altered.
+
+
+Database altered.
+
+Database log mode	       No Archive Mode
+Automatic archival	       Disabled
+Archive destination	       /opt/oracle/product/26ai/dbhomeFree/dbs/arch
+Oldest online log sequence     7
+Current log sequence	       6
+  t=0s  docker=healthy  cdb/pdb=READWRITE/READWRITE
+
+Recovery Manager: Release 23.26.3.0.0 - Production on Tue Oct 27 18:18:22 2026
+Version 23.26.3.0.0
+
+Copyright (c) 1982, 2026, Oracle and/or its affiliates.  All rights reserved.
+
+connected to target database: FREE (DBID=1509902213)
+
+RMAN> DELETE NOPROMPT ARCHIVELOG ALL;
+using target database control file instead of recovery catalog
+allocated channel: ORA_DISK_1
+channel ORA_DISK_1: SID=47 device type=DISK
+List of Archived Log Copies for database with db_unique_name FREE
+=====================================================================
+
+Key     Thrd Seq     S Low Time 
+------- ---- ------- - ---------
+1       1    1       A 05-JUL-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_1_1237845575.dbf
+
+2       1    2       A 11-OCT-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_2_1237845575.dbf
+
+3       1    3       A 25-OCT-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_3_1237845575.dbf
+
+4       1    4       A 25-OCT-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_4_1237845575.dbf
+
+5       1    5       A 25-OCT-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_5_1237845575.dbf
+
+6       1    6       A 25-OCT-26
+        Name: /opt/oracle/product/26ai/dbhomeFree/dbs/arch1_6_1237845575.dbf
+
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_1_1237845575.dbf RECID=1 STAMP=1246379232
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_2_1237845575.dbf RECID=2 STAMP=1247539848
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_3_1237845575.dbf RECID=3 STAMP=1247539930
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_4_1237845575.dbf RECID=4 STAMP=1247576429
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_5_1237845575.dbf RECID=5 STAMP=1247590887
+deleted archived log
+archived log file name=/opt/oracle/product/26ai/dbhomeFree/dbs/arch1_6_1237845575.dbf RECID=6 STAMP=1247753662
+Deleted 6 objects
+
+
+
+RMAN> EXIT
+
+
+Recovery Manager complete.
