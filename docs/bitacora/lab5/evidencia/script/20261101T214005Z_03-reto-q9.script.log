@@ -1,0 +1,14 @@
+
+Session altered.
+
+Q9 ultimos 20		       filas=	  20  lecturas l??gicas=      5  f??sicas=    0       .2 ms
+			       plan: COUNT STOPKEY > VIEW > TABLE ACCESS BY INDEX ROWID PEDIDO > INDEX FULL SCAN DESCENDING IX_PED_FECHA
+
+PL/SQL procedure successfully completed.
+
+
+SEGMENT_NAME																 MB
+-------------------------------------------------------------------------------------------------------------------------------- ----------
+PEDIDO																	 42
+IX_PED_FECHA																 22
+
